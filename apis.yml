@@ -1,7 +1,25 @@
 aid: stuck
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stuck.png
 name: Stuck
-description: Stuck is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: STUCK? is a content creation, translation, and localization platform based in Jeddah, Saudi
+  Arabia that pairs AI efficiency with human expertise. Customers can request work fully AI-powered, fully
+  human-expert-led, or as a hybrid (AI drafting with human review) across translation, content writing,
+  video subtitling, editing, and dialect localization. The platform matches requesters to vetted experts
+  in under ten minutes, supports direct chat and document upload, and runs a quality-assurance review
+  step. Pricing spans pay-as-you-go, monthly and annual subscriptions, and custom enterprise plans. Stuck
+  is a portfolio company of 500 Global and was added to the API Evangelist network as a company profile;
+  it publishes a web/app product but no public developer API at this time.
 url: https://raw.githubusercontent.com/api-evangelist/stuck/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Translation
+- Localization
+- Content
+- Artificial Intelligence
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,20 @@ maintainers:
 common:
 - type: Website
   url: https://stucktheapp.com
+- type: SignUp
+  url: https://app.stucktheapp.com
+- type: Login
+  url: https://app.stucktheapp.com
+- type: Blog
+  url: https://stucktheapp.com/blogs
+- type: Pricing
+  url: https://stucktheapp.com/#pricing
+- type: Support
+  url: mailto:stuck@stucktheapp.com
+- type: DomainSecurity
+  url: security/stuck-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
