@@ -1,0 +1,37 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://stucktheapp.com/#pricing
+sources:
+- https://stucktheapp.com/#pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: false
+note: No numeric price is published on the pricing page; Marketing homepage with a pricing section listing
+  pay-as-you-go and subscription tiers (monthly / 6 months Save 15% / yearly Save 30%), but no numeric
+  prices are shown — only 'Get Started' calls to action. Percentages shown are discounts/stats, not prices.
+plan_count: 4
+plans:
+- name: Pay As You Go
+  price_text: Pay when you use it — no monthly commitment.
+  period: per-use
+- name: For Teams
+  price_text: Best for established businesses (2-4 users)
+  period: month
+  included_quota: TURQUOISE TREK + Free STUCK? AI Al-Based Non-Expiring Chat search with extended history
+- name: For Enterprises
+  price_text: Customized Plans for Enterprises
+  period: none
+  included_quota: TURQUOISE TREK + Free STUCK? AI Al-Based Non-Expiring Free meetings & consultation
+- name: Custom
+  price_text: Customized Plans for Enterprises
+  period: none
+  included_quota: TURQUOISE TREK + Unlimited STUCK? AI Al-Based Unlimited Words VIP Support
